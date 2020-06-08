@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.container {
+  width: 30vw;
+  margin: auto;
+  border: 5px solid white;
+
+}
+
+
+
+.roma {
+  height: 50vh;
+  background-color: white;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/2678456/pexels-photo-2678456.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+.newyork {
+  height: 50vh;
+  background-color: white;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+.tokyo {
+  height: 50vh;
+  background-color: white;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1510595/pexels-photo-1510595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+ .titolo {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   font-family: fantasy;
+ }
